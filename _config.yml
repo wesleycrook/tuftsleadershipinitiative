@@ -1,0 +1,29 @@
+# Site settings
+title: Tufts Leadership Initiative
+description: > # this means to ignore newlines until "baseurl:"
+  Description goes here.
+keywords: "Leadership, Mentorship, Character"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://tuftsleadership.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - deploy.sh
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
