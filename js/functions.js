@@ -694,6 +694,48 @@ var SEMICOLON = SEMICOLON || {};
 			}
 		},
 
+		logo: function(){
+			let sLogo = defaultLogo.find('img'),
+				rLogo = retinaLogo.find('img');
+			if( ( $header.hasClass('dark') || $body.hasClass('dark') ) && !$headerWrap.hasClass('not-dark') ) {
+				if( defaultDarkLogo && ( sLogo.attr('src') != defaultDarkLogo ) ){
+					sLogo.attr('src', defaultDarkLogo);
+				}
+
+				if( retinaDarkLogo && ( rLogo.attr('src') != retinaDarkLogo ) ){
+					rLogo.attr('src', retinaDarkLogo);
+				}
+			} else {
+				if( defaultLogoImg && ( sLogo.attr('src') != defaultLogoImg ) ){
+					sLogo.attr('src', defaultLogoImg);
+				}
+
+				if( retinaLogoImg && ( rLogo.attr('src') != retinaLogoImg ) ){
+					rLogo.attr('src', retinaLogoImg);
+				}
+			}
+
+			if( $header.hasClass('sticky-header') ) {
+				if( defaultStickyLogo && ( sLogo.attr('src') != defaultStickyLogo ) ){
+					sLogo.attr('src', defaultStickyLogo);
+				}
+
+				if( retinaStickyLogo && ( rLogo.attr('src') != retinaStickyLogo ) ){
+					rLogo.attr('src', retinaStickyLogo);
+				}
+			}
+
+			if( $body.hasClass('device-md') || $body.hasClass('device-sm') || $body.hasClass('device-xs') ) {
+				if( defaultMobileLogo && ( sLogo.attr('src') != defaultMobileLogo ) ){
+					sLogo.attr('src', defaultMobileLogo);
+				}
+
+				if( retinaMobileLogo && ( rLogo.attr('src') != retinaMobileLogo ) ){
+					rLogo.attr('src', retinaMobileLogo);
+				}
+			}
+		},
+
 		stickyMenu: function( headerOffset ){
 
 			windowScrT	= $window.scrollTop();
@@ -2157,6 +2199,10 @@ var SEMICOLON = SEMICOLON || {};
 		logo = $('#logo'),
 		defaultLogo = logo.find('.logo'),
 		defaultLogoWidth = defaultLogo.find('img').outerWidth(),
+		retinaLogo = logo.find('.retina-logo'),
+		retinaLogoImg = retinaLogo.find('img').attr('src'),
+		retinaDarkLogo = retinaLogo.attr('data-dark-logo'),
+		retinaStickyLogo = retinaLogo.attr('data-sticky-logo'),
 		defaultLogoImg = defaultLogo.find('img').attr('src'),
 		defaultDarkLogo = defaultLogo.attr('data-dark-logo'),
 		defaultStickyLogo = defaultLogo.attr('data-sticky-logo'),
