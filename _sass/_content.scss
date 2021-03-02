@@ -16,7 +16,7 @@
 	p { line-height: $line-height-content; }
 	.content-wrap {
 		position: relative;
-		padding: $content-padding 0;
+		padding: $content-padding 0 40px;
 		overflow: hidden;
 	}
 	.container { position: relative; }
