@@ -27,14 +27,6 @@
 
 .bgsecondary { background-color: var(--secondary-color, #FF3A33); }
 
-.menu-link {
-	font-size: 15px;
-	font-weight: 500;
-	letter-spacing: 0;
-	text-transform: none;
-	text-shadow: none;
-}
-
 .sub-menu-container .menu-item > .menu-link {
 	font-size: 15px;
 	font-weight: 600 !important;

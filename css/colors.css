@@ -57,7 +57,7 @@ h6 > span:not(.nocolor):not(.badge),
 .dark .product-title h3 a:hover,
 .dark .single-product .product-title h2 a:hover,
 .dark .product-price ins,
-.dark .tab-nav-lg li.ui-tabs-active a { color: #1ABC9C; }
+.dark .tab-nav-lg li.ui-tabs-active a { color: #3d80e4; }
 
 .color,
 .h-text-color:hover,
@@ -67,7 +67,7 @@ a.h-text-color:hover,
 .tagcloud a:hover,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #1ABC9C !important; }
+.nav-tree li.active > a { color: #3d80e4 !important; }
 
 .top-cart-number::before,
 #page-menu-wrap,
@@ -112,7 +112,9 @@ input.switch-toggle-flat:checked + label::after,
 .dark #gotoTop:hover,
 .dark input.switch-toggle-round:checked + label::before,
 .dark input.switch-toggle-flat:checked + label,
-.dark input.switch-toggle-flat:checked + label::after { background-color: #1ABC9C; }
+.dark input.switch-toggle-flat:checked + label::after {
+	background-color: #3d80e4;
+}
 
 .bg-color,
 .bg-color #header-wrap,

@@ -5,8 +5,30 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 section.faq-testimonials {
 	margin-top: 80px;
 }
 
+h2 {
+	font-family: 'Roboto', sans-serif !important;
+}
 
+.section-features {
+	background: url('../images/mission-services/bg-blue-abstract.svg');
+	background-size: cover;
+}
+
+#copyrights a:hover {
+	color: #3d80e4;
+}
+
+.footer-widgets-wrap {
+	background: url('../images/contact/istock-278667193.jpg');
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}

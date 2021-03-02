@@ -88,17 +88,6 @@
 
 	.side-header #header-wrap { width: 300px !important; }
 
-	/* Primary Menu
-	---------------------------------------------------------------------------- */
-
-	.primary-menu .menu-container .menu-link {
-		padding-left: 22px;
-		padding-right: 22px;
-		font-size: 12px;
-		font-weight: 400;
-		letter-spacing: 3px;
-	}
-
 }
 
 
@@ -122,17 +111,6 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 ---------------------------------------------------------------------------- */
 
 .page-section { padding: 120px 0; }
-
-
-/* ----------------------------------------------------------------------------
-	Heading Block
----------------------------------------------------------------------------- */
-
-.heading-block h2 {
-	font-weight: 500;
-	letter-spacing: 3px;
-	font-family: 'Roboto', sans-serif;
-}
 
 
 /* ----------------------------------------------------------------------------
