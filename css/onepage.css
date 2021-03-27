@@ -535,12 +535,11 @@ textarea.border-form-control {
 .slider-caption h2 {
 	font-size: 78px;
 	letter-spacing: 3px;
-	text-transform: lowercase;
+	text-transform: capitalize;
 }
 
 .slider-caption p {
-	font-weight: 300;
-	text-transform: lowercase;
+	font-weight: 500;
 	font-size: 26px;
 	line-height: 1.8;
 	max-width: 600px;
