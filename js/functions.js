@@ -2207,6 +2207,7 @@ var SEMICOLON = SEMICOLON || {};
 		defaultDarkLogo = defaultLogo.attr('data-dark-logo'),
 		defaultStickyLogo = defaultLogo.attr('data-sticky-logo'),
 		defaultMobileLogo = defaultLogo.attr('data-mobile-logo'),
+		retinaMobileLogo = retinaLogo.attr('data-mobile-logo'),
 		topSearchTimeOut,
 		$pagemenu = $('#page-menu'),
 		$pageMenuClone = '',
